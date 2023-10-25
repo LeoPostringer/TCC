@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+header {
+    gap: 20px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(23, 23, 61);
+    height: 45px;
+}
+
+header>a {
+    text-align: center;
+    color: rgb(23, 23, 61);
+    border-radius: 5px;
+    background-color: white;
+    margin: -2px;
+
+}
+
+header>a>button {
+    width: 75px;
+    padding: 12px;
+    border: 0;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(23, 23, 61);
+    font-size: 13px
+}
+
+button {
+    cursor: pointer;
+}
+
+.logotitulo {
+    background-color: white;
+}
+
+#logo {
+    background-size: 100%;
+    background-color: white;
+    padding-top: 20px;
+    width: 350px;
+}
